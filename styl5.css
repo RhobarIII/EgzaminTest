@@ -1,14 +1,45 @@
 *
 {
     font-family: Georgia;
+    padding: 0px;
+    margin: 0px;
+}
+#container
+{
+    width:100%;
 }
 #ban-left, #ban-cen, #ban-right, #footer-right, #footer-cen, #footer-left
 {
     background-color: Sienna;
     color: white;
     height: 150px;
+    float: left;
 }
-#ban-right, #footer-right
+#ban-left, #footer-left
 {
     width: 40%;
+}
+#ban-cen, #footer-cen
+{
+    width: 50%;
+    font-size: 150%;
+}
+#ban-right, #footer-right
+ {
+     width: 10%;
+     font-size: 150%;
+ }
+#main
+{
+    background-color: tan;
+    padding: 100px;
+
+}
+a
+{
+    border: sienna 1px dashed;
+    background-color: tan;
+    color: sienna;
+    padding: 40px;
+    line-height: 150px;
 }
