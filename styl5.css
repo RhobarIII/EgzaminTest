@@ -1,0 +1,14 @@
+*
+{
+    font-family: Georgia;
+}
+#ban-left, #ban-cen, #ban-right, #footer-right, #footer-cen, #footer-left
+{
+    background-color: Sienna;
+    color: white;
+    height: 150px;
+}
+#ban-right, #footer-right
+{
+    width: 40%;
+}

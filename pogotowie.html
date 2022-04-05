@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pogotowie Ratunkowe</title>
+    <link rel="stylesheet" href="styl5.css">
+</head>
+<body>
+    <section id="ban-left">
+        <img src="obraz.jpg" alt="pogotowie">
+    </section>
+    <section id="ban-cen">
+        <h1>Pogotowie<br /> ratunkowe</h1>
+    </section>
+    <section id="ban-right">
+        <p>Kontakt<br /> 022 222 11 333</p>
+    </section>
+    <section id="main">
+        <h2>Dodaj nowe zgłoszenie</h2>
+        <form action="zgloszenie.php" method="post">
+            Numer zespołu ratowniczego<br>
+            <input type="number" name="nr_of_team"><br>
+            Numer dyspozytora<br>
+            <input type="number" name="nr_of_dispatcher">
+            Adres: <br>
+            <input type="text" size="100" name="addres"><br>
+            <input type="reset" value="WYCZYŚĆ">
+            <input type="submit" value="ZGŁOŚ">
+        </form>
+    </section>
+    <section id="footer-left">
+        <h4>Numery alarmowe</h4>
+        <ul>
+            <li>999</li>
+            <li>112</li>
+        </ul>
+    </section>
+    <section id="footer-cen">
+        <a href="kwerendy.txt">Pobierz kwerendy</a>
+    </section>
+    <section id="footer-right">
+        <p>Autor<br />Bartłomiej Zygmunt</p>
+    </section>
+</body>
+</html>
