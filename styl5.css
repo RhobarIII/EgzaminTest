@@ -43,3 +43,7 @@ a
     padding: 40px;
     line-height: 150px;
 }
+ul
+{
+    list-style-type: circle;
+}
